@@ -4,7 +4,10 @@
 
 Service Registry is based on the Apicurio Registry open source community project. For details, see https://github.com/apicurio/apicurio-registry.
 
-In this document we demonstrate how to install Service Registry and integrate it with AMQ Streams and Red Hat SSO. Please see [AMQ Streams](https://github.com/jonathansimas/service-registry/tree/main/gitops/amq-streams) and [RHSSO](https://github.com/jonathansimas/service-registry/tree/main/gitops/rhsso) for instructions of how to install them for use with Service Registry.
+In this document we demonstrate how to install Service Registry and integrate it with AMQ Streams and Red Hat SSO. Before you continue please read instructions of how to install them for use with Service Registry:
+
+ - [Installing a Kafka instance to use with Service Registry](https://github.com/jonathansimas/service-registry/tree/main/gitops/amq-streams)
+ - [Installing a Red Hat SSO instance to use with Service Registry](https://github.com/jonathansimas/service-registry/tree/main/gitops/rhsso) 
 
 ## 1. Install Red Hat Integration - Service Registry Operator
 
